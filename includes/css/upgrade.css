@@ -1,0 +1,602 @@
+.fa, .fas {
+	font-weight: 900;
+	margin-right: 21px;
+	margin-top: 1em;
+	color: #b6abab;
+
+}
+.molms_payment_p{
+	font-size: 110%;
+}
+.molms_card{
+	size: landscape;
+	width: 100px;
+	height: 27px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	opacity: 1;
+	padding-left: 8px;
+}
+.molms_hr{
+	border-top: 2px solid #143af4;
+}
+.molms_note{
+	font-size:17px;
+}
+.molms_setting_layout{
+	width: 81.5%;
+	margin-left: 8%;
+	margin-top: 1%;
+	box-shadow: 0px 2px 25px 0px #ccc;
+}
+.molms_bank_transfer{
+	height: 28px;
+	width:auto;
+}
+button{
+	cursor: pointer;
+}
+.mo2fa_cloud_per_tooltip_methodlist {
+    position: relative;
+    display: inline-block;
+}
+.mo2fa_cloud_per_tooltip_methodlist .mo2fa_methodlist {
+    visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 11px 1px 11px 43px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -15px;
+	  right: 110%;
+}
+.mo2fa_cloud_per_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_cloud_per_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+
+.mo2fa_shortcode_ent_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+}
+.mo2fa_shortcode_ent_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:26em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 7px 0px 8px 8px;
+	position: absolute;
+	z-index: 1;
+	top: -15px;
+	right: 110%;
+}
+.mo2fa_shortcode_ent_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_shortcode_ent_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+
+.mo2fa_per_year{
+	color:white;
+	font-size: small;
+}
+
+.mo2fa_pricing_head_sky{
+	background-color: #327a86;
+    border-radius: 1em 1em 50% 50%;
+    padding: 1em 1em 2em 0em;
+    color: white;
+	margin-top: -10%;
+	height:15.5em;
+}
+.wp-core-ui select{
+	padding: 8px 18px 8px 16px;
+	margin:1em;
+}
+.mo2fa_plan-type{
+	text-align: center;
+	color: #1f3668;
+    font-size: 28px;
+}
+.mo2fa_ul li{
+   margin-bottom: 0%;
+}
+.mo2fa_pricing_feature_collection_supporter{
+	height: 32em;
+}
+.mo2fa_pricing_head_supporter{
+	height: 4em;
+	padding: 2px 1px 1px 1px;
+	margin-bottom: 1em;
+}
+.mo2fa_pricing_feature_collection{
+	height: 31em;
+}
+
+.mo2fa_unltimate_feature{
+	text-align: center;
+	color: #000000;
+	font-family:Open Sans;
+	letter-spacing: 0.3px;
+	padding:0.5em;
+	font-family:Open Sans;
+}
+.mo2fa_upgrade_my_plan_ent{
+	border: none;
+	top: 50%;
+	left: 50%;
+	color: white;
+	padding: 15px 32px;
+	width: auto;
+	min-width: 50%;
+	border-radius: 26px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	background: #327a86;
+	font-size: 16px;
+	height: auto;
+	margin-top: 24px;
+}
+.mo2fa_upgrade_my_plan_ent:hover{
+	border: none;
+	background: #8d86f5;
+}
+.mo2fa_upgrade_my_plan {
+    border: none;
+    top: 50%;
+    left: 50%;
+    color: white;
+    padding: 15px 32px;
+    width: auto;
+    min-width: 50%;
+    border-radius: 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: #1f3668;
+    font-size: 16px;
+    height: auto;
+    margin-top: 24px;
+	cursor:pointer;
+}
+.mo2fa_upgrade_my_plan:hover{
+	border: none;
+	background: #8d86f5;
+}
+.mo2fa_pricing_tabs_mo{
+	width: auto; 
+	border-radius: 4px;
+	height: 80.2em;
+	border: 1px solid #ccc;
+	padding-top: 2em;
+	background:white;
+}
+.mo2fa_web_sec{
+	padding:20px 0;
+}
+.mo2fa_pricing_head_mo_2fa{
+	font-size: 20px;
+	color: white;
+	line-height: 1.6;
+	margin-bottom: 3%;
+	font-family:unset;
+}
+.mo2fa_method-list-size{
+   font-size: 11px;
+   margin-bottom: -3px!important;
+   list-style: none!important;
+   margin-left: 2em;
+   font-weight: 450;
+}
+.mo2fa_method-list-mo-size-cross{
+   font-size: 11px;
+   color: #b6abab;
+   margin-bottom: -3px!important;
+   list-style: none!important;
+   margin-left: 2em;
+}
+.mo2fa_increase_my_limit{
+	color: black;
+	font-size: 11px;
+	background: #c9dbdb75;
+	border-radius: 3px;
+	min-height: 27px;
+	margin-left: -10px;
+	margin-right: 3px;
+}
+.mo2fa_feature{
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+	font-size:16px;
+}
+.mo2fa_ul{
+	font-size: 15px;
+}
+.mo2fa_ul li{
+	font-size: 14px;
+	font-family: system-ui;
+}
+
+.mo2fa_ul li:nth-of-type(2n+1) {
+    background-color: rgba(23,61,80,.06);
+}
+.mo2fa_pricing{
+	padding: 16px 80px 16px 80px;
+	height: 10em;
+}
+.mo2fa_dollar{
+	font-size: 46px;
+	font-weight: 600;
+	padding: 5px 5px 5px 5px;
+	margin-top: 35px;
+	color:white;
+}
+.mo2fa_pricing_tabs_mo_enterprise{
+	background: ffffffad;
+	border: none!important;
+}
+.mo2f_upgrade_super_div{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.mo2fa_ent_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 11px 1px 11px 43px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -128px;
+	  right: 110%;
+}
+  .mo2fa_ent_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+.mo2fa_rba_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_rba_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 7px 0px 8px 11px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -2.6em;
+	  left: 93%;
+  }
+  .mo2fa_rba_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_rba_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:10em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 11px 6px 11px 17px;
+	position: absolute;
+	z-index: 1;
+	top: -37px;
+	right: 108%;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_rba_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_redirect_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_redirect_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 17em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 10px 3px 10px 34px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -2.1em;
+	  left: 93%;
+  }
+  .mo2fa_redirect_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_redirect_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:20em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 11px 1px 11px 13px;
+	position: absolute;
+	z-index: 1;
+	top: -28px;
+	right: 105%;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_redirect_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_role_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_role_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: auto;
+	  min-width:10em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 6px 7px 8px 17px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -1.1em;
+	  left: 90%;
+  }
+  .mo2fa_role_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_role_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_role_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_role_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: auto;
+	min-width:10em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 6px 7px 8px 17px;
+	position: absolute;
+	z-index: 1;
+	top: -17px;
+	right: 110%;
+  }
+  .mo2fa_ent_role_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_role_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: auto;
+	  min-width:16em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 7px 0px 8px 21px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -1.1em;
+	  left: 107%;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_custom_sms_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist .mo2fa_methodlist {
+	 visibility: hidden;
+	width: auto;
+	min-width:16em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 7px 0px 8px 21px;
+	position: absolute;
+	z-index: 1;
+	top: -17px;
+	right: 106%;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_custom_sms_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist .mo2fa_methodlist {
+	  visibility: hidden;
+	  width: 14em;
+	  background-color: #000000b8;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 8px 22px 8px 22px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -1.1em;
+	  left: 94%;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+  }
+  .mo2fa_enforce_2fa_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist {
+	position: relative;
+	display: inline-block;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist .mo2fa_methodlist {
+	visibility: hidden;
+	width: 18em;
+	background-color: #000000b8;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 11px 1px 11px 43px;
+	position: absolute;
+	z-index: 1;
+	top: -26px;
+	right: 110%;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist .mo2fa_methodlist::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+  }
+  .mo2fa_ent_enforce_2fa_tooltip_methodlist:hover .mo2fa_methodlist {
+	visibility: visible;
+  }
